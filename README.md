@@ -11,3 +11,7 @@ If you don't know how to use Latex, this isn't for you.
  * Next, look at coursefile.tex to get an idea of how this thing works.
  * Compile coursefile.tex using pdflatex.
  * Change what needs to be changed.
+
+## Bonus
+ * clearance.tex contains a trimmed down version of coursefile.tex to
+   produce your clearance material.
