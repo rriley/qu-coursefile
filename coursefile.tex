@@ -20,6 +20,7 @@
 \newcommand{\GradedWork}[2]{%
 \phantomsection
 \addtocounter{subsection}{1}
+\setcounter{subsubsection}{0}
 \addcontentsline{toc}{subsection}{#1}
 \includepdf[pages={-},addtotoc={1,subsubsection,2,#1 - Best,assign:#2-best}]{graded/#2-best.pdf}
 \includepdf[pages={-},addtotoc={1,subsubsection,2,#1 - Average,assign:#2-average}]{graded/#2-average.pdf}
